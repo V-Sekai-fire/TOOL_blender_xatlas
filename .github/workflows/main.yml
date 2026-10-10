@@ -11,6 +11,9 @@ on:
         tags:
           default: 
             'v0.0.1'
+permissions:
+  contents: write
+
 jobs:
   createRelease:
     name: Create GitHub Release
